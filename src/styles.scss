@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+/* Add application styles & imports to this file! */
+@import url("https://cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css");
+@import url("https://cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/themes/default.css");
+
+* {
+  font-family: montserrat;
+}
+
+div {
+  margin: 3rem;
+}

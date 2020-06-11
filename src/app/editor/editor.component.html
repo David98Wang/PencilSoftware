@@ -1,0 +1,10 @@
+<div class="container mt-3 ">
+  <div *ngIf="user">
+    <a>Logged In As: {{ user.displayName}}</a>
+    <img src={{user.photoURL}} />
+    <button (click)="onLogout()">Log Out</button>
+  </div>
+  <div class="row justify-content-center">
+    <div #editable class=' col-6' style="min-height: 85vh"></div>
+  </div>
+</div>
